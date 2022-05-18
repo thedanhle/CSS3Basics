@@ -2,23 +2,77 @@
     Property: value;
 } */
 
+* {
+    text-align: right;
+}
+
+/* ul {
+    text-align: left;
+} */
+
 body {
-    background-image: url(img/backgroundimage2.jpeg);
+    background-image: url(img/backgroundimage.jpeg);
     background-size: cover;
 }
 
-h2 {
+/* h2 and p */
+h2, p { 
     color: red;
     text-align: center;
-    border: 5px solid purple;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+
+/* select all p's that are inside h2 */
+h2 p {
+    color: red;
+    text-align: center;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+/* select all p's that have h2 as a parent */
+h2 > p {
+    color: red;
+    text-align: center;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+h2 + p {
+    color: red;
+    text-align: center;
+    border: 5px solid black;
     cursor: pointer;
 }
 
 p {
-    color: green;
+    color: black;
 }
 
 li {
+    color: black;
     list-style: none;
     display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed black;
+}
+
+.active {
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+#div1 {
+    background-color: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background-color: rgba(255,0,0,0.2);
 }

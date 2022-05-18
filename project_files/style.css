@@ -16,7 +16,7 @@ body {
 }
 
 /* h2 and p */
-h2, p { 
+h2 { 
     color: red;
     text-align: center;
     border: 5px solid black;
@@ -25,22 +25,23 @@ h2, p {
 
 
 /* select all p's that are inside h2 */
-h2 p {
+/* h2 p {
     color: red;
     text-align: center;
     border: 5px solid black;
     cursor: pointer;
-}
+} */
 
 /* select all p's that have h2 as a parent */
-h2 > p {
+/* h2 > p {
     color: red;
     text-align: center;
     border: 5px solid black;
     cursor: pointer;
-}
+} */
 
-h2 + p {
+/* p element is exactly after h2 */
+h2 + p:hover {
     color: red;
     text-align: center;
     border: 5px solid black;
@@ -57,7 +58,7 @@ li {
     display: inline-block;
 }
 
-.webtext {
+.webtext:first-child {
     border: 5px dashed black;
 }
 

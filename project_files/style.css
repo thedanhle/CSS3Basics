@@ -23,6 +23,15 @@ h2 {
     cursor: pointer;
 }
 
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
 
 /* select all p's that are inside h2 */
 /* h2 p {
@@ -41,7 +50,7 @@ h2 {
 } */
 
 /* p element is exactly after h2 */
-h2 + p:hover {
+p {
     color: red;
     text-align: center;
     border: 5px solid black;
@@ -50,6 +59,15 @@ h2 + p:hover {
 
 p {
     color: black;
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    text-transform: uppercase;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: Georgia;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
